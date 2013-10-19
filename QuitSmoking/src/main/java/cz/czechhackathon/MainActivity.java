@@ -12,7 +12,7 @@ import android.view.Menu;
 import com.google.android.gms.games.Player;
 
 
-public class HelloAndroidActivity extends Activity {
+public class MainActivity extends Activity {
 
     Player p;
 
