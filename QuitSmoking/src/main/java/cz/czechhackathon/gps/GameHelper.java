@@ -43,6 +43,8 @@ import com.google.android.gms.games.GamesClient;
 import com.google.android.gms.games.multiplayer.Invitation;
 import com.google.android.gms.plus.PlusClient;
 
+import cz.czechhackathon.R;
+
 public class GameHelper implements GooglePlayServicesClient.ConnectionCallbacks,
         GooglePlayServicesClient.OnConnectionFailedListener {
 
