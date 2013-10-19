@@ -1,7 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:padding="10dip"
+             android:background="#FF333333">
 
-<BorderLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:padding="5dip"
+            >
 
-</BorderLayout>
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Prostě nekouřím ..."/>
+
+        <FrameLayout android:layout_width="fill_parent"
+              android:layout_height="2dip"
+              android:background="#ff00aaff"
+              android:layout_marginTop="5dip"
+              android:layout_marginBottom="5dip"/>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:padding="5dip">
+
+            <TextView android:layout_width="0dip"
+                      android:layout_weight="1"
+                      android:layout_height="wrap_content"
+                      android:gravity="right"
+                      android:layout_marginRight="3dip"
+                      android:text="Výdrž"/>
+
+            <TextView android:id="@+id/widget_textview_endurance"
+                      android:layout_width="0dip"
+                      android:layout_weight="1"
+                      android:layout_marginLeft="3dip"
+                      android:layout_height="wrap_content"
+                      android:textStyle="bold"
+                      android:text="2 dny"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:padding="5dip">
+
+            <TextView android:layout_width="0dip"
+                      android:layout_weight="1"
+                      android:layout_height="wrap_content"
+                      android:gravity="right"
+                      android:layout_marginRight="3dip"
+                      android:text="Úspora"/>
+
+            <TextView android:id="@+id/widget_textview_saved"
+                      android:layout_width="0dip"
+                      android:layout_weight="1"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="3dip"
+                      android:textStyle="bold"
+                      android:text="200 Kč"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:padding="5dip">
+
+            <TextView android:layout_width="0dip"
+                      android:layout_weight="1"
+                      android:layout_height="wrap_content"
+                      android:gravity="right"
+                      android:layout_marginRight="3dip"
+                      android:text="Odolal"/>
+
+            <TextView android:id="@+id/widget_textview_avoided"
+                      android:layout_width="0dip"
+                      android:layout_weight="1"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="3dip"
+                      android:textStyle="bold"
+                      android:text="5"/>
+
+        </LinearLayout>
+
+
+
+        <FrameLayout android:layout_width="fill_parent"
+              android:layout_height="2dip"
+              android:background="#ff00aaff"
+              android:layout_marginTop="5dip"
+              android:layout_marginBottom="5dip"/>
+
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                >
+
+            <Button android:id="@+id/widget_button_cravings"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Chuť"/>
+
+            <Button android:id="@+id/widget_button_lost"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Prohra"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

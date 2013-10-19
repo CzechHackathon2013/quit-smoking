@@ -9,6 +9,20 @@
             android:name="com.google.android.gms.games.APP_ID"
             android:value="@string/app_id" />
 
+        <receiver
+                android:icon="@drawable/ic_launcher"
+                android:label="QuickSmoking Score Widget"
+                android:name=".QSWidgetProvider" >
+
+                <intent-filter >
+                    <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                </intent-filter>
+
+                <meta-data
+                        android:name="android.appwidget.provider"
+                        android:resource="@xml/qswidget_info" />
+        </receiver>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
