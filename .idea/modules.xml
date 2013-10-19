@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/QuitSmoking/QuitSmoking.iml" filepath="$PROJECT_DIR$/QuitSmoking/QuitSmoking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuitSmoking-it/QuitSmoking-it.iml" filepath="$PROJECT_DIR$/QuitSmoking-it/QuitSmoking-it.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuitSmoking-parent.iml" filepath="$PROJECT_DIR$/QuitSmoking-parent.iml" />
+    </modules>
+  </component>
+</project>
+
